@@ -1,0 +1,86 @@
+  /* AdminDashboard.css */
+
+.admin-dashboard {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #dee2e6;
+  height: 70px;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  color: #343a40 !important;
+}
+
+.sidebar {
+  background-color: #212529;
+  color: #ffffff;
+  width: 240px;
+  padding: 20px 15px;
+  height: calc(100vh - 70px);
+  position: fixed;
+  top: 70px;
+  left: 0;
+  z-index: 1030;
+  transition: all 0.3s ease;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link-custom {
+  color: #adb5bd;
+  font-size: 1.05rem;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 5px 0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link-custom:hover,
+.nav-link-custom.active {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+.content-wrapper {
+  padding: 30px;
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+  width: 100%;
+  overflow-y: auto;
+  height: calc(100vh - 70px);
+}
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    margin-left: 240px;
+  }
+
+  .offcanvas-custom {
+    display: none !important;
+  }
+}
+
+.offcanvas-custom {
+  max-width: 240px;
+  background-color: #212529 !important;
+  color: #ffffff;
+}
+
+.offcanvas-header,
+.offcanvas-title {
+  color: #ffffff;
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #ffffff;
+}
