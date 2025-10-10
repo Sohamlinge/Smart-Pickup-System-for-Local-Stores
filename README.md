@@ -8,7 +8,7 @@ The system is built to benefit both general and medical stores, enabling advance
 
 **🧩 Features**
 
-👤 Customer Features
+**👤 Customer Features**
 
 Register and log in securely
 <img width="1920" height="1080" alt="LoginPage" src="https://github.com/user-attachments/assets/98419e85-a2c2-4e85-8089-066e6a960230" />
@@ -26,7 +26,7 @@ Receive confirmation with assigned pickup slots
 <img width="1920" height="1080" alt="MyOrders_Customer" src="https://github.com/user-attachments/assets/8ab0043f-f9da-43fe-8b19-b05772219945" />
 
 
-🏪 Shopkeeper Features
+**🏪 Shopkeeper Features**
 
 Manage shop profile, inventory, and product details
 <img width="1920" height="1080" alt="ShopkeeperDashboard" src="https://github.com/user-attachments/assets/b42c41d1-e7cc-4fbd-9e50-967a8e056e1f" />
@@ -39,7 +39,7 @@ Update product stock and set pricing
 Confirm orders and assign pickup time slots
 <img width="1920" height="1080" alt="OrderDetails_Shopkeeper" src="https://github.com/user-attachments/assets/20ce1d3e-64bd-4ba9-8137-03f51cb10f94" />
 
-🛠️ Admin Features
+**🛠️ Admin Features**
 
 Manage all users (customers and shopkeepers)
 <img width="2877" height="1696" alt="image" src="https://github.com/user-attachments/assets/1786cb5c-a582-4256-9c66-b65b397362c1" />
